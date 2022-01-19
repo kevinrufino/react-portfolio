@@ -1,10 +1,12 @@
 import { lazy, Suspense } from 'react';
+import Particles from "react-tsparticles";
 
 const Header = lazy(() => import('./components/Header'));
 const Hero = lazy(() => import('./components/Hero'));
 const Project = lazy(() => import('./components/Project'));
 const Skill = lazy(() => import('./components/Skill'));
 const Contact = lazy(() => import('./components/Contact'));
+const ParticlesComp = lazy(() => import('./components/particlesComp'))
 
 function App() {
   return (
@@ -18,9 +20,10 @@ function App() {
         </div>
       }
     >
-      <div className='App container my-10 mx-auto max-w-screen-lg bg-black'>
+      <div className='App container my-10 mx-auto max-w-screen-lg bg-transparent'>
         <Header />
         <main>
+          <ParticlesComp />
           <Hero />
           <Project />
           <Skill />
