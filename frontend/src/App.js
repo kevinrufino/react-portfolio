@@ -1,5 +1,4 @@
 import { lazy, Suspense } from 'react';
-import Particles from "react-tsparticles";
 
 const Header = lazy(() => import('./components/Header'));
 const Hero = lazy(() => import('./components/Hero'));
