@@ -8,18 +8,11 @@ const projects = [
     link: 'https://sneaker-bot.vercel.app/tasks',
   },{
     title: 'Non-Phonegibles',
-    image: './images/Galaxian',
+    image: './images/npt',
     description: 'Solana Candymachine NFT minting site with a phonebook directory of all minted phone NFTs deployed on the Solana TestNet.',
     tools: ['React', 'Redux', 'Solana', 'Express'],
     github: 'https://github.com/kevinrufino/nft-drop-starter-project',
-    link: 'https://nft-drop-starter-project-fk4cxgkm7-kevinrufino.vercel.app/',
-  },{
-    title: 'Web3 Project',
-    image: './images/Galaxian',
-    description: 'Full featured ecommerce store built with MERN stack and Paypal payments API. Admin page to manage customers, products & orders.',
-    tools: ['React', 'Redux', 'MongoDB', 'Solidity', 'Express'],
-    github: 'https://github.com/Deelip7/react-node-ecommerce',
-    link: 'https://rn-store.herokuapp.com/',
+    link: 'https://nft-drop-starter-project-a6yvoiur4-kevinrufino.vercel.app/',
   },
   {
     title: 'TakeMe',
