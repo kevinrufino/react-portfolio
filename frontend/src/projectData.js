@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: 'NFT Marketplace dApp',
+    image: './images/Market',
+    description: 'Shopify web driver /scraping bot that will automatically checkout any item on a shopify website. Uses AJAX requests and Puppeteer as Chromiums web driver to automate the shopping process.',
+    tools: ['NextJS', 'Solidity', 'Ethers'],
+    github: 'https://github.com/kevinrufino/digital-marketplace',
+    link: 'https://github.com/kevinrufino/digital-marketplace',
+  },{
     title: 'SNK-Y Bot',
     image: './images/SNKY-Bot',
     description: 'Shopify web driver /scraping bot that will automatically checkout any item on a shopify website. Uses AJAX requests and Puppeteer as Chromiums web driver to automate the shopping process.',
