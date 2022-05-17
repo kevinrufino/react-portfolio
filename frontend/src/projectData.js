@@ -1,9 +1,16 @@
 const projects = [
   {
+    title: 'Anonymice Cheeth Staking Page',
+    image: './images/cheeth-page',
+    description: 'Worked for the Anonymice DAO to launch the front-end of thier staking reward dApp.',
+    tools: ['NextJS', 'Tailwind-CSS', 'EthersJS'],
+    github: 'https://github.com/AnonymiceDAO/cheeth-web',
+    link: 'https://cheeth.anonymice.com/',
+  },{
     title: 'NFT Marketplace dApp',
     image: './images/Market',
-    description: 'Shopify web driver /scraping bot that will automatically checkout any item on a shopify website. Uses AJAX requests and Puppeteer as Chromiums web driver to automate the shopping process.',
-    tools: ['NextJS', 'Solidity', 'Ethers'],
+    description: 'An NFT marketplace built on the block-chain with smart contracts to support minting and trading of NFTs with the ability to place and accept offers in exchange for a custom ERC-20 tokens.',
+    tools: ['NextJS', 'Tailwind-CSS', 'Solidity', 'EthersJS'],
     github: 'https://github.com/kevinrufino/digital-marketplace',
     link: 'https://github.com/kevinrufino/digital-marketplace',
   },{
