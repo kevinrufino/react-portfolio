@@ -57,9 +57,9 @@ const Contact = () => {
       </div>
       <div className='relative md:bottom-56 mr-auto ml-auto md:mr-auto md:ml-0 max-w-xs md:max-w-sm' onClick={() => window.scroll(0, 0)}>
         <picture>
-          {/* <source srcSet='./images/rocket-320.webp 320w, ./images/rocket.webp 768w' type='image/webp' /> */}
-          <source srcSet='./images/baby-mouse-1688.png' sizes='(min-width: 768px) 50vw, 100vw' type='image/png' />
-          <img width='500px' height='500px' loading='lazy' alt='mouse face' />
+          <source srcSet='./images/pixel-selfie.png' sizes='(min-width: 768px) 50vw, 100vw' type='image/png' />
+          <img 
+          width='500px' height='500px' loading='lazy' alt='Kevin Selfie' />
         </picture>
       </div>
     </section>

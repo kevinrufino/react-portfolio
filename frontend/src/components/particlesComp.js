@@ -2,24 +2,10 @@ import React from "react";
 import Particles from "react-tsparticles";
 
 const ParticlesComp = () => {
-  // const particlesInit = (main) => {
-  //   console.log(main);
-  // };
-
-  // const particlesLoaded = (container) => {
-  //   console.log(container);
-  // };
   return (
     <Particles
       id="particles-js"
-      // init={particlesInit}
-      // loaded={particlesLoaded}
       options={{
-        // background: {
-        //   color: {
-        //     value: "#0101010",
-        //   },
-        // },
         fpsLimit: 60,
         interactivity: {
           events: {
