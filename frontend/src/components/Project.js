@@ -32,7 +32,7 @@ const Project = () => {
                   <img width='768px' height='575px' loading='lazy' alt={project.title} className='rounded-lg' />
                 </picture>
               </a>
-              <div className='flex flex-col overflow-auto  space-y-3 my-3 mx-1 w-full md:w-5/12 '>
+              <div className='bg-textbg p-3 flex flex-col overflow-auto space-y-3 my-3 mx-1 w-full md:w-5/12 rounded-lg'>
                 <h3 className='uppercase font-bold text-lg'>{project.title}</h3>
                 <p>{project.description}</p>
                 <div className='flex overflow-auto space-x-3 pb-2'>

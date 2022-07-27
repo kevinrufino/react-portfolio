@@ -27,7 +27,7 @@ export default function Model({ ...props }) {
       geometry={nodes.Part1.geometry} 
       position={[positionX, positionY, positionZ]}
       rotation={[rotationX, rotationY, rotationZ]} 
-      scale={4}
+      scale={8}
       >
         <meshBasicMaterial wireframe={false} color={'#ffcc70'}/>
       </mesh>
@@ -35,7 +35,7 @@ export default function Model({ ...props }) {
       geometry={nodes.Part2.geometry} 
       position={[positionX, positionY, positionZ]}
       rotation={[rotationX, rotationY, rotationZ]} 
-      scale={4}
+      scale={8}
       >
         <meshBasicMaterial wireframe={true} color={'#ffcc70'}/>
       </mesh>
@@ -43,7 +43,7 @@ export default function Model({ ...props }) {
       geometry={nodes.Part1.geometry} 
       position={[positionX, positionY, positionZ]}
       rotation={[rotationX, rotationY, rotationZ]} 
-      scale={3.99}
+      scale={7.98}
       >
         <meshBasicMaterial color={'#000'}/>
       </mesh>
@@ -51,7 +51,7 @@ export default function Model({ ...props }) {
       geometry={nodes.Part2.geometry}
       position={[positionX, positionY, positionZ]}
       rotation={[rotationX, rotationY, rotationZ]} 
-      scale={3.99}
+      scale={7.98}
       >
         <meshBasicMaterial color={'#000'}/>
       </mesh>

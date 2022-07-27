@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, OrthographicCamera } from '@react-three/drei';
+import { EffectComposer, Pixelation } from "@react-three/postprocessing";
+// import { OrbitControls, OrthographicCamera } from '@react-three/drei';
 
 const Header = lazy(() => import('./components/Header'));
 const Hero = lazy(() => import('./components/Hero'));
@@ -22,32 +23,37 @@ function App() {
           </div>
         }
       >
-        <div className='relative' >
-
+        <div className='my-10 mx-auto max-w-screen-lg bg-transparent'>
           <Canvas 
-            style={{'height': '100vh', 'width': '100vw', 'z-index': '-100', 'position': 'fixed'}}
-            camera={{ fov: 70, position: [6,-1,6]}} 
+            style={{'height': '100vh', 'width': '100vw', 'zIndex': '-1', 'position': 'fixed', 'top': 0, 'left': 0}}
+            camera={{ 
+              fov: 70, 
+              // position: [6,-1,6]
+              position: [9,2,9]
+            }} 
             gl={{ antialias: false }}
           >
             {/* for debugging position */}
             {/* <OrthographicCamera makeDefault zoom={10} /> */}
-            {/* <gridHelper args={[100, 100, `white`, `gray`]} />   */}
-            <ambientLight />
-            <Model />
-            <OrbitControls />
+            <gridHelper args={[100, 100, `white`, `gray`]} />  
+            <Suspense fallback={null}>
+              <EffectComposer>
+                <Pixelation granularity={4} />
+              </EffectComposer>
+              <ambientLight />
+              <Model />
+              {/* <OrbitControls /> */}
+            </Suspense>
           </Canvas>
-
-          <div className='App container my-10 mx-auto max-w-screen-lg bg-transparent'>
-            <Header />
-            <main>
-              <ParticlesComp />
-              <Hero />
-              <Project />
-              <Skill />
-              <Contact />
-            </main>
-          </div> 
-        </div>
+          <ParticlesComp />
+          <Header />
+          <main>
+            <Hero />
+            <Project />
+            <Skill />
+            <Contact />
+          </main>
+        </div> 
         
      </Suspense>
   );

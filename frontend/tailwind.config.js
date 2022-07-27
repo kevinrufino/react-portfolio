@@ -13,6 +13,7 @@ module.exports = {
       danger: '#e3342f',
       black: '#121212',
       gray: '#1c1c1c',
+      textbg: '#ffffff0F'
     }),
   },
   variants: {
