@@ -9,7 +9,6 @@
 ⚡️ Fully responsive and accessible design\
 ⚡️ Lottie animation\
 ⚡️ Responsive images (srcset & WebP)\
-⚡️ My personal Anonymice PFP :)
 
 ### Author
 
