@@ -13,13 +13,31 @@ In this app I use:
 ### Upcoming Changes:
 
 Nav:
-- drop in on load a
+
+- drop in + matrix on load animation
+- opaque -> blurred background
+- disappear on scroll down
+- drop shadow and re-appear on scroll up
+- change resume button style
+- mobile side bar
 
 Hero:
--
+
+- full screen
+- text and computer moves with mouse
+- drop in animation after nav animation
+- computer on click
 
 Projects:
--
+
+- Restyle image and text
+- matrix letters
+- title color change on hover
+- better screen shots
+- change article icons to button
+
+Resume:
+- restyle resume
 
 
 ## Getting Started with Create React App
