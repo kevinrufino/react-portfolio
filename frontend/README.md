@@ -10,6 +10,18 @@ In this app I use:
 - Typewriter to list the types of development I work on
 - React-tsParticles / Particles.js for the particles effect
 
+### Upcoming Changes:
+
+Nav:
+- drop in on load a
+
+Hero:
+-
+
+Projects:
+-
+
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
